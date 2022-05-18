@@ -2,12 +2,15 @@
 #include <unistd.h>
 
 /**
- * write a program that prints the parent process
- * 
+ * main - PID
+ *
+ * Return: Always 0.
  */
-int main()
+int main(void)
 {
-    int pid, status, status2;
-    pid = fork();
-    switch (pid)
+    pid_t my_pid;
+
+    my_pid = getppid();
+    printf("%u\n", my_pid);
+    return (0);
 }
