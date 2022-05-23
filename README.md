@@ -1,6 +1,6 @@
 # Shell Practice
 
-Practicing for my shell project
+Practicing for my shell project.
 
 I'll be solving random questions.
 
